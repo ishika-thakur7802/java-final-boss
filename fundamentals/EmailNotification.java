@@ -1,5 +1,5 @@
 class EmailNotification implements Notification{
-    public void notify()
+    public void sendNotification()
     {
         System.out.println("Notified via Email");
     }
